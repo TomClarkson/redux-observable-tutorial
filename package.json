@@ -1,0 +1,21 @@
+{
+  "name": "redux-observable-tutorial",
+  "dependencies": {
+    "next": "2.0.0-beta.17",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-prism": "^4.0.0",
+    "react-youtube": "^7.3.0",
+    "redux": "^3.6.0",
+    "redux-observable": "^0.12.2",
+    "rxjs": "^5.0.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "now": {
+    "alias": "redux-observable-tutorial.now.sh"
+  }
+}

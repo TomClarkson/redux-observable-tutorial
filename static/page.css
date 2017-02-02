@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+
+body {
+	color: #333;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 16pt;
+	font-weight: 300;
+	line-height: 1.75;
+	background: #fafbfd;
+}
+
+strong {
+	font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  padding: 4em 0 2.5em 0;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 1em 0;
+    letter-spacing: -0.035em;
+}
+
+p {
+    margin: 0 0 2em 0;
+    line-height: 1.4;
+}
+
+.code-embed {
+	margin-bottom: 1em;
+}
+
+.wrapper {
+    max-width: 68em;
+    margin: 0 auto;
+    padding: 0 2.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #585858;
+	border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+}
+
